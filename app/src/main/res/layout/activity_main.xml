@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/backroundcr"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar"
+            android:theme="@style/Toolbar"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:paddingLeft="16dp"
+            android:textColor="#FFFEFE"
+            android:layout_marginBottom="-5pt"
+            android:text="@string/title"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:paddingLeft="16sp"
+            android:textColor="#F4F48E"
+            android:text="@string/title2"
+            android:textStyle="bold"
+            android:textSize="35sp" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4399DD"
+            app:tabTextColor="#ffffff">
+
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab1item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab2item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hruaitute"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab3item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app"/>
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+     </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="b1ottom|end"-->
+<!--        android:layout_margin="@dimen/fab_margin"-->
+<!--        app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

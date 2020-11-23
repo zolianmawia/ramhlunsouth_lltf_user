@@ -1,0 +1,3 @@
+include ':slidingdrawabletablayout'
+include ':app'
+rootProject.name = "Ramhlun S LLTF"

@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Ramhlun S LLTF</string>
+    <string name="help">Help</string>
+    <string name="help1">I dilna Form dik taka i dah khah hnuah i submit anga, LLTF hruaitu ten an lo Approve hunah che hming sign (signature) leh Seal a rawn lan hunah i dilna hi i hmang thei chauh ang.</string>
+    <string name="help2">I dilna Form dik taka i dah khah hnuah i submit anga, LLTF hruaitu ten an lo Approve hunah che hming sign (signature) leh Seal a rawn lan hunah i dilna hi i hmang thei chauh ang.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title">Ramhlun South LLTF</string>
+    <string name="title2">Chhuah phal dilna</string>
+        <string name="top_icon">TOP ICON</string>
+    <string name="chhuahphalna">Ramhlun South\nLLTF chhuah phal dilna</string>
+        <string name="hming">Hming pum</string>
+    <string name="section">Section : eg. Y-Section</string>
+        <string name="phone">Whatsapp-na Phone number</string>
+    <string name="chhuahduhchhan">Chhuah duh chhan</string>
+    <string name="chhuahduhna">Chhuah duhna hmun hming</string>
+    <string name="chhuahni">Date : eg. 18/12/2020</string>
+    <string name="chhuahhundarkar">Chhuah hun darkar : eg. 9:00am to 3:30pm</string>
+    <string name="motorhming">Motor hming: eg. Flyte</string>
+    <string name="motor_number">Motor Number</string>
+        <string name="submit">Submit</string>
+        <string name="forgot_password">FORGOT PASSWORD?</string>
+        <string name="or">OR</string>
+        <string name="google_icon">google icon</string>
+        <string name="facebook_icon">facebook icon</string>
+        <string name="new_user_register_now">New User? Register Now</string>
+    <string name="my_pref">myPref</string>
+    <string name="document_id">documentID</string>
+    <string name="submit_success_msg">I dilna hi ngun taka ngaihtuah a ni ang a, pawm pui i nih chuan, i dilna form ah hming sign  leh seal a lo awm tawh ang.</string>
+    <string name="empty_form_msg">Khawngaihin bawm ruak dahkhat kim rawh.</string>
+    <string name="submitting">Submitting</string>
+    <string name="hriatpuina_heading">*Fimkhur leh him taka awm turin LLTF, Ramhlun South chuan a beisei che a ni*</string>
+    <string name="form">Form</string>
+    <string name="hruaitute">Hruaitute</string>
+    <string name="about_app">About App</string>
+
+
+</resources>
